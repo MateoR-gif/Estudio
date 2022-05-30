@@ -1,0 +1,49 @@
+.contenedor{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"header      header      header"
+                        "sidebar-1   contenido   sidebar-2"
+                        "sidebar-1   widgets     sidebar-2"
+                        "footer      footer      footer";
+}
+
+.contenedor .header {
+    background: #FF8999;
+    grid-column-start: header;
+    grid-column-end: header;
+}
+
+.contenedor .sidebar-1{
+    background: #6bf1b8;
+
+    /* grid-column-start: sidebar-1;
+    grid-column-end: sidebar-1;
+    grid-row-start: sidebar-1;
+    grid-row-end: sidebar-1; */
+
+    /* grid-column: sidebar-1;
+    grid-row: sidebar-1; */
+
+    grid-area: sidebar-1
+}
+
+.contenedor .contenido {
+    background-color: white;
+    color: black;
+    grid-area: contenido;
+}
+
+.contenedor .widgets{
+    background-color: #5c5581;
+    grid-area: widgets;
+}
+
+.contenedor .sidebar-2{
+    grid-area: sidebar-2;
+}
+
+.contenedor .footer{
+    background-color: #192a38;
+    grid-area: footer;
+}
