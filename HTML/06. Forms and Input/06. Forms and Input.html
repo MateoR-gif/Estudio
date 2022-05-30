@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .theDiv{
+        display: flex;
+        justify-content: space-around;
+      }
+
+      h1{
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- <form> - Defines an HTML form for user input  -->
+    <form class="" action="index.html" method="post">
+
+    </form>
+
+    <div class="theDiv">
+
+      <div class="col1">
+
+        <!-- <input> - Defines an input control -->
+        <div class="">
+          <h1>Input de Texto</h1>
+          <input type="text" name="" value="" placeholder="¡Input de Texto!">
+        </div>
+
+        <div class="">
+          <h1>Input tipo Botón</h1>
+          <input type="button" name="" value="¡Botón!">
+        </div>
+
+        <div class="">
+          <h1>Checkbox</h1>
+          <input type="checkbox" name="" value="">
+          <input type="checkbox" name="" value="">
+        </div>
+
+        <div class="">
+          <h1>Seleccionador de Colores</h1>
+          <input type="color" name="" value="">
+        </div>
+
+        <div class="">
+          <h1>Input de Fecha</h1>
+          <input type="date" name="" value="">
+        </div>
+
+        <div class="">
+          <h1>Input de Archivos</h1>
+          <input type="file" name="" value="">
+        </div>
+
+        <div class="">
+          <h1>Input de Mes y Año</h1>
+          <input type="month" name="" value="">
+        </div>
+
+      </div>
+
+      <div class="col2">
+
+        <div class="">
+          <h1>Etiqueta textarea</h1>
+          <!-- <textarea> - Defines a multiline input control (text area)  -->
+          <textarea name="name" rows="8" cols="80"></textarea>
+        </div>
+
+        <div class="">
+          <!-- <button> - Defines a clickable button -->
+          <h1>Etiqueta button</h1>
+          <button type="button" name="button">Botón 1</button>
+        </div>
+
+        <div class="">
+          <h1>Etiqueta select, optgroup, option</h1>
+          <!-- <select> - Defines a drop-down list -->
+          <select class="" name="" >
+            <!-- <optgroup> - Defines a group of related options in a drop-down list -->
+            <optgroup label="Sizas">
+              <!-- <option> - Defines an option in a drop-down list -->
+              <option value="Aló">Aló</option>
+              <option value="XD">XD</option>
+            </optgroup>
+            <optgroup label="Nonas">
+              <option value="equis">equis</option>
+              <option value="de">de</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div class="">
+          <h1>Etiqueta Label</h1>
+          <input type="text" name="text" value="Text">
+          <!-- <label> - Defines a label for an <input> element -->
+          <label for="text">Label for Input "Text"</label>
+        </div>
+
+        <div class="">
+          <h1>Etiqueta fieldset, legend</h1>
+          <form class="" action="index.html" method="post">
+            <!-- <fieldset> - Groups related elements in a form -->
+            <fieldset>
+              <!-- <legend> - Defines a caption for a <fieldset> element -->
+              <legend>Esto es una Leyenda sobre el Fieldset</legend>
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" value="">
+              <label for="apellido">Apellido</label>
+              <input type="text" name="apellido" value="">
+              <button type="button" name="button">Enviar!</button>
+              <label for="Seleccionar">Selecciona:</label>
+              <select class="" name="Seleccionar">
+                <option value="Sí">Sí</option>
+                <option value="No">No</option>
+              </select>
+            </fieldset>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="col3">
+
+        <div class="">
+          <h1>Etiqueta output</h1>
+          <!-- <output> - Defines the result of a calculation -->
+          <form oninput="x.value=parseInt (a.value)+parseInt(b.value)">
+            <input type="number" id="a" value="50">
+            +<input type="number" id="b" value="50">
+            =<output name="x" for="a b"></output>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- <datalist> - Specifies a list of pre-defined options for input controls -->
+    <datalist class="">
+
+    </datalist>
+
+  </body>
+</html>

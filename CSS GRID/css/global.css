@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: ghostwhite;
+    color:black;
+}
+
+header{
+    text-align: center;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    border: 5px solid black;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contenedor > div{
+    display: block;
+    padding: 20px;
+    color: white;
+    background: #2F89FC;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}

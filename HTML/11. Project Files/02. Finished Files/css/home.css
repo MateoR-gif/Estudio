@@ -1,0 +1,233 @@
+/*
+====================================================================================================================================================================
+                                                    Start Slideshow Properties
+====================================================================================================================================================================
+*/
+
+section#slideshow{
+  background-image: url(file:///C:/Users/usuario/Desktop/FrontEndCourse/FrontEndCourse/11.%20Project%20Files/02.%20Finished%20Files/img/background.jpg);
+  height: 1000px;
+  background-repeat: no-repeat;
+}
+
+
+section#content {
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    /*  */
+}
+
+img#slide {
+    width: 100%;
+    height: auto;
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Slideshow Properties
+====================================================================================================================================================================
+*/
+
+
+/*
+====================================================================================================================================================================
+                                                    Start Featured Courses Properties
+====================================================================================================================================================================
+*/
+
+div.course {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+}
+
+div.course2 {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+}
+
+div.course3 {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+}
+
+h6 {
+	font-size: 1em;
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Featured Courses Properties
+====================================================================================================================================================================
+*/
+
+
+/*
+====================================================================================================================================================================
+                                                    Start About Section Properties
+====================================================================================================================================================================
+*/
+.sectionsDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+section#about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 509px;
+    background: #252525;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section#about .sectionTitle{
+  text-align: center;
+  color: white;
+}
+
+section#about .sectionContent{
+  display: flex;
+  justify-content: space-around;
+}
+
+section#courses{
+  display: flex;
+  flex-direction: column;
+}
+
+section#courses .coursesBody{
+  display: flex;
+  justify-content: space-around;
+}
+
+section#courses .coursesTitle{
+  text-align: center;
+}
+
+section#learntech{
+  display: flex;
+  flex-direction: column;
+}
+
+section#learntech .sectionTitle{
+  text-align: center;
+}
+
+section#learntech .sectionContent{
+  display: flex;
+  justify-content: space-around;
+}
+
+div.students {
+    width: 300px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+div.reviews {
+    width: 300px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+div.courses {
+    width: 300px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+div.content {
+    width: 300px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+/*
+====================================================================================================================================================================
+                                                    End About Section Properties
+====================================================================================================================================================================
+*/
+
+/*
+====================================================================================================================================================================
+                                                    Start Learn Tech Section Properties
+====================================================================================================================================================================
+*/
+
+div.learntechnow {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+}
+
+div.learntechpodcast {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+}
+
+div.learntechblog {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+}
+
+.h1lt {
+
+
+
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Learn Tech Section Properties
+====================================================================================================================================================================
+*/
+
+/*
+====================================================================================================================================================================
+                                                    Start Footer
+====================================================================================================================================================================
+*/
+
+footer {
+    width: 100%;
+    height: 80px;
+    background: #172035;
+    position: absolute;
+    top: 3100px;
+    left: 0;
+}
+
+p#footer {
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+    font-size: 1em;
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Footer
+====================================================================================================================================================================
+*/
