@@ -1,0 +1,15 @@
+.contenedor{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+
+    justify-items: end; /* Alineación Horizontal */
+    align-items: stretch; /* Alineación Vertical */
+}
+
+.contenedor .item{
+    background: #FF8000;
+    justify-self: center; /* Manipular el Width del mismo elemento en Horizontal */
+    align-self: stretch; /* Lo mismo, pero en Vertical */
+}
