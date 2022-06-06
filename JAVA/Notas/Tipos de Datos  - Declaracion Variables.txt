@@ -1,0 +1,30 @@
+Tipos de Datos JAVA
+
+Primitivos:
+
+ - Enteros:
+	* byte (-128 hasta 127)
+	* short (-32,768 hasta 32,767)
+	* int (-2,147,484,648 hasta 2,147,484,647)
+	* long (muy grande...)
+
+ - Decimales:
+	* float (hasta 8 valores decimales)
+	* double (hasta 15 valores decimales)
+
+ - Otros:
+
+	* char (un solo caracter)
+	* boolean (true or false)
+
+Tipos Objeto:
+
+ - String: (cadena de texto)
+	*Ejemplo: "Hola Mundo"
+
+
+DECLARACION VARIABLE:
+
+<tipo> <nombre> <valor>;
+
+ejemplo: int num_1 = 5;

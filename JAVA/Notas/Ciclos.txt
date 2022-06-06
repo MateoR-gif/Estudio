@@ -1,0 +1,25 @@
+Estructura de los ciclos For:
+
+for(inicio; condición; incremento){
+
+  instrucción...
+
+}
+
+Estructura de los ciclos While:
+
+parámetro;
+
+while(parámetro(condición)){
+
+  instrucción...
+
+}
+
+Estructura de los ciclos Do While
+
+Do {
+
+  Instrucciones...
+
+}while(condición);

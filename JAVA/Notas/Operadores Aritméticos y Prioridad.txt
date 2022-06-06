@@ -1,0 +1,15 @@
+Operadores Aritméticos:
+
+Suma: +
+Resta: -
+Multiplicación: *
+División: /
+Potencia: ^
+Paréntesis: ()
+
+PRIORIDAD:
+
+1 ()
+2 ^
+3 * , /
+4 + , -

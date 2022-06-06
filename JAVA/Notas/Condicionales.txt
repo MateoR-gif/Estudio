@@ -1,0 +1,8 @@
+Estructuras Condicionales:
+
+ Estructuras condicionales Simples:
+	Solo tienen instrucciones en una de las validaciones (falso o verdadero)
+
+ Estructuras Condicionales Compuestas:
+	Tienen instrucciones en ambas validaciones.
+

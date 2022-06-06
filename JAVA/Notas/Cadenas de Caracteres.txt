@@ -1,0 +1,32 @@
+Cadenas de Caracteres:
+
+String -> Permite declarar variables para alojar cadenas de caracteres (Texto).
+
+Declarar una variable:
+
+int numero = 0;
+String nombre = "";
+
+Comparar valores:
+
+numero==9; -> false
+nombre=="Juan"; -> false (Método incorrecto)
+nombre.equals("Juan"); -> false (Método correcto)
+
+Metodo Length:
+
+Indica cuántos caracteres posee una cadena de caracteres.
+
+nombre = Carlos;
+
+num_caracteres = nombre.length(); --> num_caracteres == 6; --> true
+
+Metodo substring:
+
+Permite obtener una parte en específico de la cadena de caracteres
+
+Uso: substring(desde, hasta);
+
+Carlos
+
+substring(0, 4); --> Carl
