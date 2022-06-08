@@ -1,0 +1,49 @@
+Programación Orientada a Objetos
+
+La POO, es una manera de diseñar y desarrollar software que trata
+de imitar la realidad tomando algunos conceptos esenciales de ella.
+
+El primero de estos es, precisamente, el de objeto, cuyos rasgos
+son la identidad, el estado y el comportamiento.
+
+- La identidad, es el nombre que distingue a un objeto de otro.
+- El estado, son las características que describen al objeto.
+- El comportamiento, es lo que puede hacer el objeto.
+
+Ejemplo:
+
+	Tenemos 2 perros:
+
+	Chester y Milo -> Identidad
+
+	----------------------------
+	Estado
+	----------------------------
+	Chester:
+
+		* Raza: Chow Chow.
+		* Edad: 5 años.
+		* Rasgos Físicos: Peludo, color negro.
+
+	Milo:
+		
+		* Raza: Pastor Alemán.
+		* Edad: 3 años.
+		* Rasgos físicos: Enorme.
+
+	----------------------------
+	Comportamiento
+	----------------------------
+
+	- Ladran
+	- Corren
+	- Juegan
+	- Comen
+	- Duermen
+
+En código:
+
+- Clase: Perro.java
+- Variables: Raza, color y edad.
+- Métodos (Comportamiento): ladrar(), correr(), jugar(), comer(), dormir().
+- Identificadores (Nombre de los objetos): Chester y Milo.

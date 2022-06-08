@@ -7,18 +7,18 @@ package Practicas;
 import java.util.Scanner;
 
 public class InversorPalabras {
-    public static void main(String args[]){
-        int longitudPalabra = 0;
-        String palabraInvertida = "", palabra = "";
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
         System.out.print("Ingrese la palabra a Invertir: ");
-        palabra = input.nextLine();
-        longitudPalabra = palabra.length();
+        String palabra = input.nextLine();
+        int longitudPalabra = palabra.length();
 
         System.out.println("");
         System.out.println("Proceso con While");
         System.out.println("");
+
+        String palabraInvertida = "";
 
         while(longitudPalabra != 0){
             palabraInvertida += palabra.substring(longitudPalabra - 1, longitudPalabra);

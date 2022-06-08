@@ -1,0 +1,12 @@
+Comentarios
+
+Comentarios en una línea:
+
+// Comentario
+
+Comentarios multilínea:
+
+/*
+
+
+*/
