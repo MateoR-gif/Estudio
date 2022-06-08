@@ -19,7 +19,7 @@ Indica cuántos caracteres posee una cadena de caracteres.
 
 nombre = Carlos;
 
-num_caracteres = nombre.length(); --> num_caracteres == 6; --> true
+num_caracteres = nombre.length; --> num_caracteres == 6; --> true
 
 Metodo substring:
 

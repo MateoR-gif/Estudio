@@ -1,0 +1,29 @@
+Arreglos
+
+Un arreglo es una estructura de datos que almacena bajo el mismo
+nombre a una colección de datos.
+
+Se caracterizan por almacenar elementos en posiciones contiguas
+
+Tienen un mismo nombre de variable
+
+Los elementos son asignados a una posición del vector
+
+Trabaja con índices que especifican la posición del vector
+
+
+Declaración de Vectores:
+
+<tipo de dato>  <nombre del vector>[] = new <tipo de dato>[<numero de posiciones>];
+
+ejemplo:
+
+int nombre[] = new int[5];
+
+Guardar el nombre "Alberto" en la posición 2 del arreglo:
+
+nombre[2] = "Alberto";
+
+Imprimir la posición donde está el nombre "Alberto":
+
+System.out.println(nombre[2]);
