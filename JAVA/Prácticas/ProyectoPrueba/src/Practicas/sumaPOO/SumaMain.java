@@ -1,3 +1,9 @@
+/*
+    * Creado por Mateo Rendón
+    * Versión 1.0
+    * Fecha: 08/06/2022
+ */
+
 package Practicas.sumaPOO;
 import java.util.Scanner;
 
