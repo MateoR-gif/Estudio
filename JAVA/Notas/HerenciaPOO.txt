@@ -1,0 +1,10 @@
+Herencia
+
+Procedimiento utilizado para reutilizar código cuando creamos nuevas
+clases.
+
+Lo único que se hace, es indicar al programa que queremos utilizar
+las variables y funciones de una clase que ya hemos creado anteriormente.
+
+se utiliza la palabra reservada "extends" para heredar una clase
+padre en una clase hija-

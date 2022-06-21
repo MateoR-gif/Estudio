@@ -1,0 +1,7 @@
+Dependencias Básicas
+
+- Spring Web
+- Spring Data JPA (Java Persistence API)
+- PostgreSQL Driver (Driver que permite conectar Java con PostgreSQL DB)
+
+

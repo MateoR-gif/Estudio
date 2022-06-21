@@ -1,0 +1,45 @@
+El encapsulamiento consiste en ocultar los atributos y métodos
+de una clase, para evitar que sean modificados desde otra clase.
+
+Esto es con el fin de que cuando otro programador utilice nuestra
+clase, no pueda cambiar su estado o comportamiento de manera
+imprevista o incontrolada.
+
+Modificadores de Acceso
+
+Para poder realizar la encapsulación en Java, es necesario utilizar
+los modificadores de acceso, estos permiten dar un nivle de seguridad
+mayor a nuestras aplicaciones restringiendo el acceso a diferentes
+atriburtos, métodos o constructores, asegurándonos que el usuario
+deba seguir una ruta especificada por nosotros para acceder a la 
+información.
+
+Ejemplo:
+
+	Cuando utilizamos la clase Scanner, solo importamos la libería
+	o la biblioteca donde se encuentra esta clase.
+
+	Pero en ningún momento podemos ver o modificar los atributos
+	o métodos de esta clase, ya que están encapsulados.
+
+	import java.util.Scanner;
+
+Existe cuatro modificadores de acceso:
+
+	*public
+	*default
+	*protected
+	*private
+
+Modificador Default:
+
+Cuando no especificamos ningún modificador de acceso, se utiliza el
+modificador default, que consiste en que el elemento puede ser accedido
+solo desde las clases que pertenezcan al mismo paquete.
+
+
+
+
+
+
+	

@@ -1,0 +1,9 @@
+¿Qué es?
+
+Es la propuesta estandar que ofrece Java para implementar un
+framework Object Relational Mapping (ORM), que permite interactuar
+con la base de datos por medio de objetos.
+
+JPA es el encargado de convertir los objetos Java en instrucciones
+para el Manejador de Base de Datos (MBD).
+

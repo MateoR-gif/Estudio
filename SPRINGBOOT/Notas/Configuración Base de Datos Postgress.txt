@@ -1,0 +1,8 @@
+Configuración de la Base de Datos (PostgreSQL)
+
+spring.jpa.database=POSTGRESQL
+spring.datasource.platform = postgres
+spring.datasource.url=jdbc:postgresql://localhost:5432/{nombre de la base de datos}
+spring.datasource.username=postgres
+spring.datasource.password=mateorendon1
+spring.jpa.show-sql=true

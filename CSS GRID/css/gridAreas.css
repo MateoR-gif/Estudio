@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:"header      header      header"
                         "sidebar-1   contenido   sidebar-2"
-                        "sidebar-1   widgets     sidebar-2"
+                        "sidebar-1   widgets     widgets"
                         "footer      footer      footer";
 }
 
@@ -46,4 +46,13 @@
 .contenedor .footer{
     background-color: #192a38;
     grid-area: footer;
+}
+
+@media (max-width: 800px){
+    .contenedor{
+        grid-template-areas:"header"
+                            "sidebar-1"
+                            "widgets"
+                            "footer";
+    }
 }

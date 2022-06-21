@@ -1,0 +1,35 @@
+Cuando Utilizamos POO, podemos acceder a variables que se encuentran
+en otras clases.
+
+Esto solo es posible, si creamos una instancia entre las clases.
+
+Instancia de Clases: Es cuando hacemos que dos clases interactúen entre sí.
+
+Ejemplo:
+
+	public class SumaMain --> Envía datos --> public class Suma
+	public class SumaMain <-- Recibe datos <-- public class Suma
+
+Al acceder a variables de instancia de una clase, podemos encontrarnos con
+variables que se llamen igual que en la clase de donde estamos accediendo.
+
+Cuando esto sucede, debemos utilizar la palabra reservada "this".
+
+Porque "this" va a indicar, si se están utilizando las variables de instancia,
+o las variables de la clase desde la cual estamos accediendo.
+
+Ejemplo:
+
+	public class Rectangulo{
+	  private int base;
+	  private int altura;
+
+	  public Rectangulo(int base, int altura){
+	    this.base = base;
+	    this.altura = altura;
+	  }
+	}
+
+	donde this.base y this.altura, hacen referencia a las variables declaradas privadas
+        en cambio, base y altura, hacen referencia a las variables que son parámetros de Rectangulo()
+
