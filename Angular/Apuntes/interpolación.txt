@@ -1,0 +1,10 @@
+Interpolación
+
+En el archivo ts del componente, declaramos una variable
+
+	-> nombre = 'Alberto';
+
+En el archivo html del componente, llamamos a esa variable
+
+	-> <p>Nombre = {{nombre}}</p>
+

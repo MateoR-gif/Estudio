@@ -1,0 +1,5 @@
+Comandos de Inicio
+
+-> Creación de Proyecto Angular: ng new <nombre app>
+
+-> Ejecución del Proyecto: ng serve --open

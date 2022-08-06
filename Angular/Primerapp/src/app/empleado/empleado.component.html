@@ -1,1 +1,8 @@
-<p>Aquí iría un empleado</p>
+<p>Nombre del Empleado: {{getNombre()}}</p>
+<p>Apellido del Empleado: {{apellido}}</p>
+<p>Edad del Empleado: {{edad<18 ? "Menor de Edad":"Mayor de Edad"}}</p>
+<p>Empresa del Empleado: {{empresa.value}}</p>
+<p>Introduce la Empresa: <input type="text" #empresa (keyup)="0" [disabled]="habilitador"></p>
+<input type="checkbox" name="" id="registro" [checked]="isRegistered">
+<input type="button" value="Habilitar" (click)="actualizarHabilitador()">
+<p (copy)="copiar()">Copiame</p>

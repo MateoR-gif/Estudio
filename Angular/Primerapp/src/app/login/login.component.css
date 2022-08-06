@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: 5px;
+}
+
+form{
+    background-color: rgb(146, 201, 182);
+    display: grid;
+    max-width: 300px;
+    align-content: center;
+    border-radius: 5px;
+    grid-auto-flow: row;
+}
+
+form > input, button{
+    max-width: 100px;
+}
