@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    border: 1px solid;
+    margin-bottom: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a__div{
+    display: flex;
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(184, 183, 183);
+}
+
+.container{
+    margin: auto;
+    width: 600px;
+    min-height: 600px;
+    border: 1px solid;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 1px solid;
+    width: 100px;
+    min-height: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.different{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    margin: 50px auto;
+    width: 600px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+
+.form__items{
+    border: 2px dotted;
+    margin: 10px;
+    width: 300px;
+}
+
+.input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.form__label{
+    color: rgb(100, 53, 53);
+}
+
+.form__item{
+    text-align: center;
+}
+
+.button{
+    align-self: flex-start;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+}
